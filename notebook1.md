@@ -24,3 +24,13 @@
     WHERE XXX BETWEEN XX AND XX
     WHERE XXX LIKE XX
     % 匹配所有字符 _匹配单个字符
+    WHERE XXX REGEXP 'XX' (跟like差不多，不过regexp是正则)
+    WHERE XXX IS NULL 缺少值的记录
+    用法： 'rose|jack|john'
+           '[abc]d' 匹配 ad，bd，cd '[a-c]d'
+           '^' beginning
+           '$' end
+           
+ ### 数据排序
+    ORDER BY XXX
+    
