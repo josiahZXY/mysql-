@@ -33,4 +33,15 @@
            
  ### 数据排序
     ORDER BY XXX
-    
+    ORDER BY XXX DESC 反向排序
+### limit
+    LIMIT NUM
+    LIMIT NUM1,NUM2 num1是偏移量，num2指取多少
+### JOIN
+    JOIN XXX(表) ON XXXX(条件语句) 
+    example：
+        SELECT *
+        FROM order_items oi
+        Join sql_inventory.products p
+	        ON oi.product_id=p.product_id
+### 
